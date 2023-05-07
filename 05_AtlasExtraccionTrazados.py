@@ -22,10 +22,15 @@ for nombre_hoja in excel_file.sheet_names:
     hoja = pd.read_excel(excel_file, sheet_name=nombre_hoja, header=1)
     hoja = hoja.iloc[:, 2:]
     
+    if 'Codificación Común' not in hoja.columns:
+        continue
+    
     # Eliminar filas con valores nulos
     hoja = hoja.dropna(subset=['Codificación Común'])
     
     # Agregar el dataframe a nuestro diccionario con el nombre de la hoja como clave
     dataframes_por_hoja[nombre_hoja] = hoja
+
+excel_file.close()
 
 print(dataframes_por_hoja['Hoja2'])
