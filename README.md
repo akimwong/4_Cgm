@@ -1,4 +1,8 @@
 ### excel-mongoDB
-1. (shared) Excel: Used by all users to register different information according to their roles.
-2. MongoDB: Used to track and store all changes made to the Excel spreadsheet. 
-3. Python: For the development of automations, reports, and the graphical user interface (with custom tkinter).
+1. An (shared) Excel dashboard created for each project, for both internal and external users (around 10), for data recording/querying based on each assigned role.
+
+2. MongoDB, used to store:
+A. The current content of each cell in each Excel file, as well as the historical record of state changes for each cell over time.
+B. The physical layouts that make up different telecommunications circuits.
+
+3. Python for email automation, report generation, data analysis and developing the graphical user interface (with custom tkinter).
