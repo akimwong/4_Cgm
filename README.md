@@ -43,7 +43,7 @@ STEP 3: Divide the program into two major sections: <br/>
 - Validate whether information can be extracted from the saved files.
 - Identify and store changes using the relationship between ID and column headers as references, while adding a timestamp.
 
-STEP 4: Analyze the information in line with the initial question: How to increase revenue?
+STEP 4: Analyze the information in line with the main objective of the project: How to increase revenue?
 
 ### What database?
 
