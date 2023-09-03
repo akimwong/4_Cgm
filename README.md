@@ -11,7 +11,7 @@ From circuit migration. The more circuits are migrated in a shorter time with th
 - Inventory tools from TELEFONICA
 - An Excel sheet for each technical room containing a list of all the circuits to be migrated, which is used to track each project. These Excel sheets are shared, and around 10 technicians input and update various types of information.
 <p align="center">
-  <img src="https://github.com/akimwong/5_FaroCGM/blob/main/01_UI_InitialVersion.png" width="800" height="400">
+  <img src="https://github.com/akimwong/5_FaroCGM/blob/main/02_worksheets.PNG" width="800" height="400">
 </p>
 
 ### What about Excel?
@@ -36,6 +36,9 @@ STEP 3. Create a database to periodically store changes made to each cell in all
 ## STRATEGY 2 (ON GOING)
 
 STEP 1: Develop a program with a friendly user interface (UI) that allows each technician to visually track their main task completion progress.<br/>
+<p align="center">
+  <img src="https://github.com/akimwong/5_FaroCGM/blob/main/02_worksheets.PNG" width="800" height="400">
+</p>
 STEP 2: Gradually incorporate widgets designed to automate various types of tasks. <br/>
 STEP 3: Divide the program into two major sections: <br/>
 1. PRODUCTION: This section should extract real-time information from Excel files of each project.
