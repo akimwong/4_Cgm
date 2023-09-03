@@ -47,4 +47,4 @@ STEP 4: Analyze the information in line with the main objective of the project: 
 
 ### What database?
 
-Given that project management is performed using an Excel sheet that continuously adds columns to accommodate new requirements or checkpoints, the decision is made to employ a NoSQL MongoDB database with a key-value data structure.
+Given that project management is performed using Excel sheets that continuously adds columns to accommodate new requirements or checkpoints, the decision is made to employ a NoSQL MongoDB database with a key-value data structure.
