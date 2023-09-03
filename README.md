@@ -44,3 +44,7 @@ STEP 3: Divide the program into two major sections: <br/>
 - Identify and store changes using the relationship between ID and column headers as references, while adding a timestamp.
 
 STEP 4: Analyze the information in line with the initial question: How to increase revenue?
+
+### What database?
+
+Since the management of each project is done using an Excel sheet that continuously adds columns based on new requirements or checkpoints, it is decided to use a NoSQL MongoDB database of the key-value type.
