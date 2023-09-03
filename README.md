@@ -40,6 +40,7 @@ STEP 1: Develop a program with a friendly user interface (UI) that allows each t
   <img src="https://github.com/akimwong/5_FaroCGM/blob/main/02_UI_InitialVersion.png" width="1000" height="500">
 </p>
 STEP 2: Gradually incorporate widgets designed to automate various types of tasks. <br/>
+<br/>
 STEP 3: Divide the program into two major sections: <br/>
 1. PRODUCTION: This section should extract real-time information from Excel files of each project.
 - Display an overview of task completion status.
@@ -52,7 +53,7 @@ STEP 3: Divide the program into two major sections: <br/>
 <p align="center">
   <img src="https://github.com/akimwong/5_FaroCGM/blob/main/03_Architecture.PNG" width="1000" height="450">
 </p>
-STEP 4: Analyze the information in line with the main objective of the project: How to increase revenue?
+STEP 4: Analyze the information of the database in line with the main objective of the project: How to increase the revenue?
 
 ### What database?
 
