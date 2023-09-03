@@ -32,7 +32,7 @@ STEP 3. Create a database to periodically store changes made to each cell in all
 
 ## STRATEGY 2 (ON GOING)
 
-STEP 1: Develop a program with a friendly user interface (UI) that allows each technician to visually track their task completion progress.<br/>
+STEP 1: Develop a program with a friendly user interface (UI) that allows each technician to visually track their main task completion progress.<br/>
 STEP 2: Gradually incorporate widgets designed to automate various types of tasks. <br/>
 STEP 3: Divide the program into two major sections: <br/>
 1. PRODUCTION: This section should extract real-time information from Excel files of each project.
