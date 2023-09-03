@@ -13,7 +13,7 @@ From circuit migration. The more circuits are migrated in a shorter time with th
 - Excel is a basic tool, very intuitive and easy to CRUD (Create, Read, Update and Delete).
 - Sharing an Excel file among multiple individuals carries the risk that anyone can modify each other's information (either accidentally or intentionally) without tracking changes. It is unknown how long each person takes to input their part of the project.
 
-### STRATEGY 1 (FAILED)
+## STRATEGY 1 (FAILED)
 
 1. Developed small programs to automate specific tasks one by one.
 2. Shared the code and taught colleagues how to execute these programs for those specific tasks.
