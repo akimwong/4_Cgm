@@ -45,8 +45,8 @@ STEP 3: Divide the program into two major sections: <br/>
 - Display an overview of task completion status.
 - Identify tasks available for automation. <br/>
 2. ANALYTICS:Create a database to record all changes that have occurred in each Excel sheet for every project. The process is as follows: <br/>
-- Copy all production Excel files to a repository every 3 hours.
-- Validate whether information can be extracted from the saved files.
+- Copy all production Excel files to a repository every 3 hours. <br/>
+- Validate whether information can be extracted from the saved files. <br/>
 - Identify and store changes using the relationship between ID and column headers as references, while adding a timestamp.
 <p align="center">
   <img src="https://github.com/akimwong/5_FaroCGM/blob/main/03_Architecture.PNG" width="1000" height="450">
