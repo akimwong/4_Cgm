@@ -17,7 +17,7 @@ From circuit migration. The more circuits are migrated in a shorter time with th
 
 1. Developed small programs to automate specific tasks one by one.
 2. Shared the code and taught colleagues how to execute these programs for those specific tasks.
-3. Created a database to periodically store changes made to each cell in all Excel worksheets for data analytics purposes.
+3. Create a database to periodically store changes made to each cell in all Excel worksheets for data analytics purposes.
 
 #### Why it failed?:
 
