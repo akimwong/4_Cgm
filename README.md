@@ -7,7 +7,7 @@ From circuit migration. The more circuits are migrated in a shorter time with th
 
 ### What tools do we have?
 - Inventory tools from TELEFONICA
-- An Excel sheet for each technical room containing a list of all the circuits to be migrated, which is used to track each project. These Excel sheets are shared, and around 10 people input and update various types of information.
+- An Excel sheet for each technical room containing a list of all the circuits to be migrated, which is used to track each project. These Excel sheets are shared, and around 10 technicians input and update various types of information.
 
 ### What about Excel?
 - Excel is a basic tool, very intuitive, easy to use (and to modify) by anyone.
