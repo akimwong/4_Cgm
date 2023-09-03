@@ -1,5 +1,5 @@
 ### Where do the revenues come from?
-From circuit migration. The more circuits are migrated in a shorter time with the least amount of resources, the higher the revenues."
+From circuit migration. The more circuits are migrated in a shorter time with the least amount of resources, the higher the revenues.
 
 ### What is the problem?
 - In order to be migrated, each circuit must meet a series of technical and administrative requirements defined by TELEFONICA. If any of these requirements is not met, the circuit cannot be migrated.
