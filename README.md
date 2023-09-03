@@ -49,7 +49,7 @@ STEP 3: Divide the program into two major sections: <br/>
 - Validate whether information can be extracted from the saved files.
 - Identify and store changes using the relationship between ID and column headers as references, while adding a timestamp.
 <p align="center">
-  <img src="https://github.com/akimwong/5_FaroCGM/blob/main/03_Architecture.PNG" width="800" height="600">
+  <img src="https://github.com/akimwong/5_FaroCGM/blob/main/03_Architecture.PNG" width="800" height="400">
 </p>
 STEP 4: Analyze the information in line with the main objective of the project: How to increase revenue?
 
