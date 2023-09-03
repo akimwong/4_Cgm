@@ -48,6 +48,7 @@ STEP 3: Divide the program into two major sections: <br/>
 - Copy all production Excel files to a repository every 3 hours. <br/>
 - Validate whether information can be extracted from the saved files. <br/>
 - Identify and store changes using the relationship between ID and column headers as references, while adding a timestamp. <br/>
+<br/>
 <p align="center">
   <img src="https://github.com/akimwong/5_FaroCGM/blob/main/03_Architecture.PNG" width="1000" height="450">
 </p>
