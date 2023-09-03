@@ -36,8 +36,11 @@ STEP 1: Develop a program with a friendly user interface (UI) that allows each t
 STEP 2: Gradually incorporate widgets designed to automate various types of tasks. <br/>
 STEP 3: Divide the program into two major sections: <br/>
 1. PRODUCTION: This section should extract real-time information from Excel files of each project.
+- Display an overview of task completion status.
+- Identify tasks available for automation.
 2. ANALYTICS:Create a database to record all changes that have occurred in each Excel sheet for every project. The process is as follows:
 - Copy all production Excel files to a repository every 3 hours.
 - Validate whether information can be extracted from the saved files.
 - Identify and store changes using the relationship between ID and column headers as references, while adding a timestamp.
-- Analyze the information in line with the initial question: How to increase revenue?
+
+STEP 4: Analyze the information in line with the initial question: How to increase revenue?
