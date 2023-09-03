@@ -10,5 +10,5 @@ From circuit migration. The more circuits are migrated in a shorter time with th
 - An Excel sheet for each technical room containing a list of all the circuits to be migrated, which is used to track each project. These Excel sheets are shared, and around 10 technicians input and update various types of information.
 
 ### What about Excel?
-- Excel is a basic tool, very intuitive, easy to use (and to CRUD -Create, Read, Update and Delete-) by anyone.
+- Excel is a basic tool, very intuitive, easy to CRUD (Create, Read, Update and Delete) by anyone.
 - Sharing an Excel file among multiple individuals carries the risk that anyone can modify each other's information (either accidentally or intentionally) without tracking changes. It is unknown how long each person takes to input their part of the project.
