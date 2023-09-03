@@ -1,3 +1,5 @@
+## THE CONTEXT
+
 ### Where do the revenues come from?
 From circuit migration. The more circuits are migrated in a shorter time with the least amount of resources, the higher the revenues.
 
@@ -27,3 +29,5 @@ From circuit migration. The more circuits are migrated in a shorter time with th
    - Maintaining consistent circuit coding from the beginning to the end of each project
    - Avoiding the creation of new columns with the same name as existing ones
    - Not incrementing new circuits with the same coding as previous circuits
+
+## STRATEGY 2 (ON GOING)
