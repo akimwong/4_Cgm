@@ -1,4 +1,4 @@
-ee THE CONTEXT
+## THE CONTEXT
 
 ### Where do the revenues come from?
 From circuit migration. The more circuits are migrated in a shorter time with the least amount of resources, the higher the revenues.
