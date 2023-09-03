@@ -17,8 +17,8 @@ From circuit migration. The more circuits are migrated in a shorter time with th
 
 ## STRATEGY 1 (FAILED)
 
-STEP 1. Developed small programs to automate specific tasks one by one.
-STEP 2. Shared the code and taught colleagues how to execute these programs for those specific tasks.
+STEP 1. Developed small programs to automate specific tasks one by one. <br/>
+STEP 2. Shared the code and taught colleagues how to execute these programs for those specific tasks. <br/>
 STEP 3. Create a database to periodically store changes made to each cell in all Excel worksheets for data analytics purposes.
 
 #### Why it failed?:
@@ -32,9 +32,9 @@ STEP 3. Create a database to periodically store changes made to each cell in all
 
 ## STRATEGY 2 (ON GOING)
 
-STEP 1: Develop a program that allows each user to visually assess their task completion level in comparison to the total, using a user-friendly interface.
-STEP 2: Gradually incorporate widgets designed to automate various types of tasks.
-STEP 3: Divide the program into two major sections:
+STEP 1: Develop a program that allows each user to visually assess their task completion level in comparison to the total, using a user-friendly interface. <br/>
+STEP 2: Gradually incorporate widgets designed to automate various types of tasks. <br/>
+STEP 3: Divide the program into two major sections: <br/>
 
 1. PRODUCTION: This section should extract real-time information from Excel files of each project.
 2. ANALYTICS: Create a copy of each file in a specific folder, validate general aspects, and from there, identify and store changes using the ID and column headers as references, while adding a timestamp.
