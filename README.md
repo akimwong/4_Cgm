@@ -32,9 +32,12 @@ STEP 3. Create a database to periodically store changes made to each cell in all
 
 ## STRATEGY 2 (ON GOING)
 
-STEP 1: Create a user-friendly program for users to easily track their task completion progress visually.<br/>
+STEP 1: Develop a program with a friendly user interface (UI) that allows each technician to visually track their task completion progress.<br/>
 STEP 2: Gradually incorporate widgets designed to automate various types of tasks. <br/>
 STEP 3: Divide the program into two major sections: <br/>
-
 1. PRODUCTION: This section should extract real-time information from Excel files of each project.
-2. ANALYTICS: Create a copy of each file in a specific folder, validate general aspects, and from there, identify and store changes using the ID and column headers as references, while adding a timestamp.
+2. ANALYTICS:Create a database to record all changes that have occurred in each Excel sheet for every project. The process is as follows:
+- Copy all production Excel files to a repository every 3 hours.
+- Validate whether information can be extracted from the saved files.
+- Identify and store changes using the relationship between ID and column headers as references, while adding a timestamp.
+- Analyze the information in line with the initial question: How to increase revenue?
