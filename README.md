@@ -47,4 +47,4 @@ STEP 4: Analyze the information in line with the initial question: How to increa
 
 ### What database?
 
-Since the management of each project is done using an Excel sheet that continuously adds columns based on new requirements or checkpoints, it is decided to use a NoSQL MongoDB database of the key-value type.
+Given that project management is performed using an Excel sheet that continuously adds columns to accommodate new requirements or checkpoints, the decision is made to employ a NoSQL MongoDB database with a key-value data structure.
