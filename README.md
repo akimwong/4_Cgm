@@ -12,7 +12,7 @@ These solutions focus on automating data collection, processing, vizualization a
 <b>Technologies:</b> R, MongoDB Compass, Excel </p>
 <b>Tags:</b> Data Extraction, Process Automation, Historical Tracking, Email Notifications </p>
 <b>Key Tools:</b> R Studio, MongoDB Compass, Microsoft Excel </p>
-<b>Description:</b> Developed an automated data pipeline system that transforms a collaborative Excel file (70 columns × 1500 rows) into a structured MongoDB database. The solution manages data input from 12 different users, tracking changes and process flow across multiple stages. Key features include: </p>
+<b>Description:</b> Developed an automated data pipeline system that transforms a collaborative Excel file (70 columns × 1500 rows, 300 mini projects) into a structured MongoDB database. The solution manages data input from 12 different users, tracking changes and process flow across multiple stages. Key features include: </p>
 
 - Automated periodic data extraction from Excel to MongoDB
 - Historical tracking system maintaining all data changes
