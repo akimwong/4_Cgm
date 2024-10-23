@@ -17,7 +17,7 @@ This foundational script sets the groundwork for future implementations:
 
 
 
-<b>Flowchart of thew code:</b>
+<b>MongoDB ETL Process Flow:</b>
 
 1. Initialization:
 -Load Required Libraries (readxl, openxlsx, mongolite, jsonlite)
