@@ -20,7 +20,7 @@ This foundational script sets the groundwork for future implementations:
 <b>MongoDB ETL Process Flow:</b>
 
 1. Initialization:
--Load Required Libraries (readxl, openxlsx, mongolite, jsonlite)
+- Load Required Libraries (readxl, openxlsx, mongolite, jsonlite)
 - Read Excel Worksheet
 
 2. Data Type Conversion Functions:
