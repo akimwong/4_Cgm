@@ -10,6 +10,6 @@ Collection of data management tools developed within a project management contex
 <b>Technologies:</b> R, MongoDB, Excel </p>
 <b>Tags:</b> Data Extraction, NoSQL Database </p>
 <b>Key Tools:</b> Jupyter Notebooks-R, MongoDB Compass, Microsoft Excel </p>
-<b>Description:</b> Developed an automated data pipeline system that transforms a collaborative Excel file (70 columns × 1500 rows, managing 300 mini projects) into a structured MongoDB database. The solution orchestrates data input from 12 different users, ensuring seamless tracking of changes and process flow across multiple stages.
+<b>Description:</b> Developed a R script system that extracts information from a large collaborative Excel file (around 70 columns × 1500 rows, managing roughly 350 mini projects) and loads it into a structured MongoDB database. The solution maps and transforms data input from around 12 users, maintaining the relationships between data and preserving the process flow structure across multiple stages.
 
 This foundational database structure sets the groundwork for future implementations of real-time tracking, historical data analysis, and automated notifications. The MongoDB architecture enables the development of features for data-driven decision making, efficient team coordination through automated task handovers, and comprehensive performance metrics.
