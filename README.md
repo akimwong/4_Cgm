@@ -1,5 +1,5 @@
 ## Overview
-Collection of data management tools developed within a project management context.  These solutions focus on automating data collection, processing, vizualization, analysis and reporting to enhance project tracking and team collaboration efficiency.  Each project maintains confidentiality information using dummy datasets while highlighting core technologies and achievements.
+Collection of data management tools developed within a project management context.  These solutions focus on automating data collection, processing, visualization, analysis and reporting to enhance project tracking and team collaboration efficiency.  Each project maintains confidentiality by using dummy datasets while highlighting core technologies and achievements.
 
 ## Projects
 
