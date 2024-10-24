@@ -5,7 +5,7 @@
 <b>Technologies:</b> R, MongoDB, Excel </p>
 <b>Tags:</b> Data Extraction, NoSQL Database </p>
 <b>Key Tools:</b> Jupyter Notebooks-R, MongoDB Compass, Microsoft Excel </p>
-<b>Description:</b> R script that extracts information from a large collaborative Excel file (around 70 columns × 2700 rows, to manage approximately 350 mini projects) and loads it into a structured MongoDB database. The solution maps and transforms data input from around 12 users, maintaining the relationships between data and preserving the process flow structure across multiple stages.
+<b>Description:</b> Developed a R script that extracts information from a large collaborative Excel file (around 70 columns × 2700 rows, to manage approximately 350 mini projects) and loads it into a structured MongoDB database. <b>The solution implements a tracking system that captures cell values with timestamps and monitors changes from approximately 11 concurrent users.</b> This approach maintains a complete historical record of modifications, enabling comprehensive audit trails while ensuring data integrity.
 
 This foundational script sets the groundwork for future implementations:
 
