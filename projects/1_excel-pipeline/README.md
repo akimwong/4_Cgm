@@ -16,7 +16,7 @@ This foundational script sets the groundwork for future implementations:
 - Performance metrics for task completion times
 
 
-<b>ETL Process Flow:</b>
+<b>SCRIPT Process Flow:</b>
 
 1. Initialization:
 - Load Required Libraries (readxl, openxlsx, mongolite, jsonlite)
