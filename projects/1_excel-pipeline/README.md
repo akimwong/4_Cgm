@@ -8,13 +8,16 @@
 <b>Description:</b> Developed a R script that extracts information from a large collaborative Excel file (around 70 columns × 2700 rows, to manage approximately 350 mini projects) and loads it into a structured MongoDB database. <b>The solution implements a tracking system that captures cell values with timestamps and monitors changes from approximately 11 concurrent users.</b> This approach maintains a complete historical record of modifications, enabling comprehensive audit trails while ensuring data integrity.
 
 This foundational script sets the groundwork for future implementations:
-
 - Automated data extraction from Excel to MongoDB
 - Historical tracking system for all data changes
 - Real-time monitoring of process advancement
 - Automated notifications for task dependencies
 - Performance metrics for task completion times
 
+<b>Excel Collaborative Issues:</b>
+- Structure: variable column names, additions/deletions, and order changes, making it difficult to maintain consistent data mapping and processing
+- Data Quality: mixed data types within columns, multiple date formats, numbers stored as text, and empty/whitespace cells affecting data integrity
+- Control: lack of real-time validation, multiple users can input incorrect data, and no standardized format enforcement leading to inconsistent data entry
 
 <b>SCRIPT Process Flow:</b>
 1. Initialization: load libraries (readxl, openxlsx, mongolite, jsonlite) & read Excel
