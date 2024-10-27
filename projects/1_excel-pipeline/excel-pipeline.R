@@ -1,3 +1,4 @@
+# Initialization --------------------------------------------------
 library(readxl)
 library(openxlsx)
 library(mongolite)
@@ -8,6 +9,8 @@ ruta_archivo <- "projects/1_excel-pipeline/data.xlsx"
 
 # Read the spreadsheet into a DataFrame (DataFrame in R)
 df <- read_excel(ruta_archivo, sheet = "Sheet1")
+
+# Data Type Conversion Functions ---------------------------------
 
 # Define a function to convert Excel numeric values to dates
 # with a specific format dd/mm/yyyy
@@ -21,22 +24,20 @@ convertir_a_fecha <- function(valor) {
     }
   }, error = function(e) NA)  # Return NA if an error occurs
 }
-
-# Convert commas to periods and then to numeric 
+# Convert commas to periods and then to numeric
 convertir_a_numero <- function(valor) {
   valor <- gsub(",", ".", valor)  # Replace comma with period
   as.numeric(valor)               # Convert to numeric
 }
-
 # Define a function to detect and convert types in each value of
 # mixed columns
 detect_and_convert <- function(value) {
   if (is.na(value) || value == "") {
     return("")  # Keep empty cells as NA
     # Double condition to transform numbers to dates
-    # Detect numbers representing dates in Excel format
+    # Detect numbers of 5 digits representing dates in Excel
   } else if (!is.na(suppressWarnings(as.numeric(value))) &&
-             grepl("^[0-9]{5}$", value)) {
+               grepl("^[0-9]{5}$", value)) {
     # Convert to date with specific format
     return(convertir_a_fecha(value))
     # Detect numbers (integers or decimals)
@@ -49,12 +50,16 @@ detect_and_convert <- function(value) {
   }
 }
 
+# DataFrame Processing ----------------------------------------
+
 # Apply the function to each cell (not each column) in the data frame
 df <- as.data.frame(
   lapply(df, function(column) {
     apply(as.matrix(column), 1, detect_and_convert)
   })
 )
+
+# MongoDB Connection -----------------------------------------
 
 # Set up the connection to the MongoDB database
 client <- mongo(collection = "Dataset",
@@ -63,6 +68,8 @@ client <- mongo(collection = "Dataset",
 historico <- mongo(collection = "Dataset_Historic",
                    db = "Table1",
                    url = "mongodb://localhost:27017/")
+
+# Data Processing ---------------------------------------------
 
 # Get the current date and time in custom format
 formatted_datetime <- format(Sys.time(), "%Y-%m-%d %H:%M")
@@ -85,23 +92,19 @@ historical_operations <- list()
 for (i in seq_len(nrow(df))) {
   row <- df[i, ]
   row_id <- row$`ID.`
-  
   # For each column in the row, get the cell value and generate a unique key
   for (col_name in names(df)) {
     cell_value <- row[[col_name]]
     key <- paste(row_id, col_name, sep = "_")
     existing_data_entry <- existing_data_dict[[key]]
-    
     # Skip if the cell is empty and does not exist in the database
     if (is.na(cell_value) && is.null(existing_data_entry)) {
       next
     }
-    
     # If it exists in the database, check for changes
     if (!is.null(existing_data_entry)) {
       existing_cell_value <- existing_data_entry$cell_value
       existing_timestamp <- existing_data_entry$timestamp
-      
       # Update the value if it's different from the existing one
       if (cell_value != existing_cell_value) {
         # Create the update in the main collection
@@ -119,7 +122,6 @@ for (i in seq_len(nrow(df))) {
             )
           )
         ))
-        
         # Insert the previous value into the historical collection
         historical_operations <- append(historical_operations, list(
           list(
@@ -149,6 +151,8 @@ for (i in seq_len(nrow(df))) {
     }
   }
 }
+
+# Database Update ---------------------------------------------
 
 # Execute the batch operations for the main collection
 if (length(operations) > 0) {
