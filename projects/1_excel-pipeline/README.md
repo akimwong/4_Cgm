@@ -18,31 +18,14 @@ This foundational script sets the groundwork for future implementations:
 
 <b>SCRIPT Process Flow:</b>
 
-1. Initialization:
-- load Required Libraries (readxl, openxlsx, mongolite, jsonlite)
-- read Excel Worksheet
+1. Initialization: load libraries (readxl, openxlsx, mongolite, jsonlite) & read Excel
 
-2. Data Type Conversion Functions:
-- convert_to_date: Excel numeric to date conversion
-- convert_to_number: String to numeric conversion
-- detect_and_convert: Main type detection and conversion
+2. Data Type Conversion Functions: functions for date/numeric conversion & type detection
 
-3. DataFrame Processing:
-- apply type conversions to the entire DataFrame
+3. DataFrame Processing: apply type conversions to the entire DataFrame
 
-4. MongoDB Connection:
-- connect to main Dataset Collection
-- connect to Historical Collection
-- fetch existing records
-- create data dictionary for efficient lookups
+4. MongoDB Connection: Connect to collections, fetch records & create lookups
 
-5. Data Processing:
-- iterate through DataFrame rows
-- process each column
-- check for data changes
-- prepare update operations
-- prepare historical records
+5. Data Processing: Process rows/columns, check changes & prepare updates
 
-6. Database Update:
-- execute batch updates on main collection
-- insert historical records
+6. Database Update: Execute batch updates & historical records
