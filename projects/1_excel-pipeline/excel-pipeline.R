@@ -13,7 +13,7 @@ df <- read_excel(ruta_archivo, sheet = "Sheet1")
 # Data Type Conversion Functions ---------------------------------
 
 # Define a function to convert Excel numeric values to dates
-# with a specific format dd/mm/yyyy
+# with a specific format dd/mm/yyyy (used in Spain)
 convertir_a_fecha <- function(valor) {
   tryCatch({
     num_valor <- as.numeric(valor)
@@ -24,7 +24,8 @@ convertir_a_fecha <- function(valor) {
     }
   }, error = function(e) NA)  # Return NA if an error occurs
 }
-# Convert commas to periods and then to numeric
+# Convert commas to periods and then to numeric ("," to separate
+# decimals used in Europe '5,85' -> '5.85')
 convertir_a_numero <- function(valor) {
   valor <- gsub(",", ".", valor)  # Replace comma with period
   as.numeric(valor)               # Convert to numeric

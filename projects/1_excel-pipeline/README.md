@@ -15,8 +15,8 @@ This foundational script sets the groundwork for future implementations:
 - Performance metrics for task completion times
 
 <b>Excel Collaborative Issues:</b>
-- Structure: variable column names, additions/deletions, and order changes, making it difficult to maintain consistent data mapping and processing
-- Data Quality: mixed data types within columns, multiple date formats, numbers stored as text, and empty/whitespace cells affecting data integrity
+- Structure: variable column names, column additions/deletions, and order changes, making it difficult to maintain consistent data mapping and processing
+- Data Quality: mixed data types within columns, multiple date and number formats, numbers stored as text, and empty/whitespace cells affecting data integrity
 - Control: lack of real-time validation, multiple users can input incorrect data, and no standardized format enforcement leading to inconsistent data entry
 
 <b>SCRIPT Process Flow:</b>
