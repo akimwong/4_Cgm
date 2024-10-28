@@ -1,4 +1,4 @@
-### 1. Excel to MongoDB Data Pipeline
+### 2. Automated Email Generation
 
 <b>Short name:</b> Email_merge </p>
 <b>Role:</b> Data Automation Developer </p>
